@@ -3,7 +3,7 @@
 #include "Point.h"
 
 Point* BinarySearch(Point PointList[], int Size, double Target) {
-	//검색 결과를 반환해야 하므로 Point*를 반환. 검색 대상이 없을때는 NULL을 반호나해야함.
+	//검색 결과를 반환해야 하므로 Point*를 반환. 검색 대상이 없을때는 NULL을 반환해야함.
 	int Left, Right, Mid;
 	Left = 0;
 	Right = Size - 1;
